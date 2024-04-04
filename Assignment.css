@@ -1,0 +1,44 @@
+header {
+    background-color: aqua;
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    margin-left: 0px;
+
+
+}
+#introduction {
+    color: yellow;
+    background-color: black;
+    margin: 1ch;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: pink;
+    padding:20px;
+
+}
+#SKILLS {
+    color: gold;
+    background-color: black;
+    margin: 1ch;
+    padding: 10px;
+    border: 10px;
+
+}
+#contact_information {
+    color: black;
+    background-color: goldenrod;
+    margin: 1ch;
+    padding: 10px;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+
+}

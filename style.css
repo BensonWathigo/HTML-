@@ -1,0 +1,37 @@
+#intro {
+    background-color: black;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}
+#message {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto ;
+}
+#skills {
+   background-color: brown;
+    margin: auto;
+}
+#skills li {
+    background-color: peru;
+    font-size: xx-small;
+}
+#skills ul {
+    color: royalblue;
+    font-size: medium;
+}
+.contact_information {
+    color: blue;
+    background-color: yellowgreen;
+    margin: 10px;
+    font-size: large;
+}
+.contact_information ul {
+    color: pink;
+    padding: 10px;
+    margin: 10px;
+}
+body {
+    color: black;
+}
