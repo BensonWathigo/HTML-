@@ -1,37 +1,39 @@
-#intro {
-    background-color: black;
-    margin: 10px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 10px;
+
+/*This is an ID sselector. Stsrtd with #*/
+#green_paragraph{
+    color: green;
+    font-size: 20 px;
 }
-#message {
+/*This is acomment in CSS*/
+/*This is a class selector.Starts with (.).*/
+.red_paragraph {
+    color: red;
+    font-size: 30px;
+
+}
+
+.container{
+    width: 400px;
+    height: 50S0px;
+    border: 5px solid black;
+    padding: 50px;
+    margin : 30px;
+    display: flex;
+}
+.item {
+    padding: 5px;
+}
+.container img{
+    width: 100%;
+    height: 200px;;
+}
+
+body{
+    background-color: pink;
+}
+.chepe{
     color: black;
-    font-family: 'Courier New', Courier, monospace;
-    margin: auto ;
 }
-#skills {
-   background-color: brown;
-    margin: auto;
-}
-#skills li {
-    background-color: peru;
-    font-size: xx-small;
-}
-#skills ul {
-    color: royalblue;
-    font-size: medium;
-}
-.contact_information {
-    color: blue;
-    background-color: yellowgreen;
-    margin: 10px;
-    font-size: large;
-}
-.contact_information ul {
-    color: pink;
-    padding: 10px;
-    margin: 10px;
-}
-body {
+#mambo_mob {
     color: black;
 }

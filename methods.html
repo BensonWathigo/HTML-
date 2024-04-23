@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+
+    </head>
+    <body>
+        <p id="html_dom"></p>
+        <p id="myText"> This is an example of a paragraph.</p>
+        <button id="btnchange">Change text</button>
+        <button onclick="clickButton"> Click me!</button>
+    </body>
+    <script>
+        document.getElementById("html_dom").innerHTML = "Good morning, welcome to today's class!";
+
+        const button = document.querySelector('#btnchange');
+
+        function newText (event) {
+            console.log(event);
+            const p = document.querySelector('#myText');
+            p.innerText = 'This paragraph has been changed!';
+        }
+
+        button.addEventListener('click', newText); 
+
+        document.addEventListener('Keydown', (event) => {
+            console.log('A key has been pressed...');
+            
+
+        });
+
+        document.addEventListener('keyup', (event) => {
+            console.log("A button has beeen pressed.");
+            console.log(event.key);
+        });
+
+        document.addEventListener('mousebutton',(event) =>{
+            console.log('The mouse button has been pressed.');
+        });
+
+        document.addEventListener('mouseup', (event) => {
+            console.log("The mouse button has been released.");
+        });
+
+        document.addEventListener('mouseover', (event)=>{
+            console.log("The mouse button is pressed");
+        });
+        function clickButton(){
+            alert('Button has been clicked.');
+        }
+        
+
+    </script>
+</html>
