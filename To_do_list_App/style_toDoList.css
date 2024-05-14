@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css?family=Gochi+Hand");
+
+body {
+    background-color: gray;
+    min-height: 70vh;
+    padding: 1 rem;
+    box-sizing: initial;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: "Gochi Hand", cursive;
+    text-align: center;
+    font-size: 130%;
+}
+@media only screen and (min-width = 500px) {
+    body{
+    min-height: 100vh;
+    }
+};
+.container {
+    width: 100%;
+    background: #f1f548;
+    box-shadow: 400px 3px 7px 2px ;
+}
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.heading_title {
+    transform: rotate(10deg);
+    padding: 0.2rem 1.2rem;
+    border-radius: 5% 20% 25% 20%; 
+    background-color: yellow;
+    font-size: 1.5rem;
+}
+.heading_image {
+    width: 25%;
+}
+
+.form_label {
+    display: block;
+    margin-bottom: 0.5rem;
+} 
+.form_input {
+    box-sizing: border-box;
+    background-color: transparent;
+    padding: 0.7rem;
+    border-bottom-left-radius: 15px 3px;
+    border-bottom-right-radius: 3px 15px;
+    border: solid 3px black ;
+    border-bottom: dashed black;
+    font-family: "Gochi Hand";
+    font-size: 1rem;
+    color: rgba(63, 62, 65, 1 );
+    width: 70% ;
+    margin-bottom: 20px;
+    background-image: url(https://images.pexels.com/photos/14155735/pexels-photo-14155735.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+
+}
+.form_input :focus {
+    outline: none;
+    border: solid 3px #ea95e0;
+}
+.button {
+    transform: rotate(-3deg);
+    transform-origin: center;
+    padding: 3px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 0px 0px  peru;
+    transition: all 0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background-image: url(https://images.pexels.com/photos/14155735/pexels-photo-14155735.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);   
+}
+.button span {
+    background-color: none;
+    display: block;
+    padding: o.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 2px solid transparent;
+}
+.button:active, .button:focus {
+    transform: translate(1rem);
+}
+.toDoList {
+    text-align: left;
+}
+.toDoList li {
+    position: relative;
+    padding: 0.5rem;
+}
+.toDoList li:hover {
+    text-decoration: line-through wavy black;
+}
