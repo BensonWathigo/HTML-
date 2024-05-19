@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> AN APP USING FIREBASE</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width"/>
+        <link rel="stylesheet" href="2nd-Index.css"/>
+    </head>
+    <body>
+        <div class="task-form">
+            <input type="text" id="task-input" placeholder="Enter your desired task"/>
+            <button onclick="addTask()">Add Task</button>
+        </div>
+        <!--Add task list-->
+        <ul id="task-list">
+
+        </ul>
+        <!--firebase SDK-->
+        <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-analytics.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js"></script>
+        <script src="2nd-Index.js"></script>       
+    </body>
+</html> 
