@@ -6,7 +6,7 @@
     </head>
     <body>
         <p id="html_dom"></p>
-        <p id="myText"> This is an example of a paragraph.</p>
+        <p id="myText"> My name is John Wathigo.</p>
         <button id="btnchange">Change text</button>
         <button onclick="clickButton"> Click me!</button>
     </body>
@@ -18,7 +18,7 @@
         function newText (event) {
             console.log(event);
             const p = document.querySelector('#myText');
-            p.innerText = 'This paragraph has been changed!';
+            p.innerText = 'No. I am Benson Wathigo!';
         }
 
         button.addEventListener('click', newText); 
