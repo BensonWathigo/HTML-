@@ -63,6 +63,12 @@ body {
     outline: none;
     border: solid 3px #ea95e0;
 }
+@media only screen and (min-width) {
+    .form_input {
+        width: 60%;
+    }
+}
+
 .button {
     transform: rotate(-3deg);
     transform-origin: center;
